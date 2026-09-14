@@ -38,7 +38,7 @@
       if (args.length === 2) {
         const [start, end] = args;
 
-        if (start > end) throw Error("시작값이 끝값보다 큼");
+        if (start > end) throw Error("The starting value is greater than the ending value.");
 
         return Math.ceil(Math.random() * (end - start)) + start;
       }
@@ -53,7 +53,7 @@
       if (args.length === 2) {
         const [start, end] = args;
 
-        if (start > end) throw Error("시작값이 끝값보다 큼");
+        if (start > end) throw Error("The starting value is greater than the ending value.");
 
         return Math.random() * (end - start) + start;
       }
