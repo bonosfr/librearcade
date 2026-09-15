@@ -238,3 +238,58 @@ footer {
     margin-top: 24px;
 }
 
+.game-button {
+    display: inline-block;
+
+    margin-top: 10px;
+    padding: 13px 28px;
+
+    background: var(--accent);
+    color: white;
+
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+    font-size: 1.05rem;
+    font-weight: 650;
+    text-decoration: none;
+
+    box-shadow: 0 8px 25px rgba(69, 122, 236, 0.2);
+
+    transition:
+        background 0.15s ease,
+        transform 0.15s ease,
+        box-shadow 0.15s ease;
+}
+
+.repo {
+    margin: 0;
+    color: #979494;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+.repo-button {
+    display: inline-block;
+
+    margin-top: 10px;
+    padding: 13px 28px;
+
+    background: var(--accent);
+    color: white;
+
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+    font-size: 1.05rem;
+    font-weight: 650;
+    text-decoration: none;
+
+    box-shadow: 0 8px 25px rgba(69, 122, 236, 0.2);
+
+    transition:
+        background 0.15s ease,
+        transform 0.15s ease,
+        box-shadow 0.15s ease;
+}
