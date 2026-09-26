@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">LibreArcade</title>
+  <desc id="desc">A blue arcade icon with a white pixel-style game controller</desc>
+
+  <rect width="64" height="64" rx="14" fill="#4B7FF0"/>
+
+  <!-- Arcade cabinet / controller silhouette -->
+  <path
+    d="M17 22.5h30c2.2 0 4 1.8 4 4v14c0 2.2-1.8 4-4 4H17c-2.2 0-4-1.8-4-4v-14c0-2.2 1.8-4 4-4Z"
+    fill="#fff"/>
+
+  <!-- Joystick -->
+  <path d="M29 22.5v-5" stroke="#4B7FF0" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="29" cy="14" r="4" fill="#fff"/>
+
+  <!-- D-pad -->
+  <rect x="19" y="29" width="5" height="15" rx="1.5" fill="#4B7FF0"/>
+  <rect x="14" y="34" width="15" height="5" rx="1.5" fill="#4B7FF0"/>
+
+  <!-- Action buttons -->
+  <circle cx="42" cy="33" r="3.2" fill="#4B7FF0"/>
+  <circle cx="47" cy="39" r="3.2" fill="#4B7FF0"/>
+</svg>
